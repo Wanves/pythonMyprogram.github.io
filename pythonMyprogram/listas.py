@@ -1,0 +1,18 @@
+lista = [1,2,3,'Matheo',5,6,7,8,9,10,'goku','Python']
+lista2 =['m','p','r','t','v','w','x','y','z']
+print(lista)
+print(lista[:])
+print(lista[2])
+print(lista[-1])
+print(lista[0:2])
+print(lista[:2])
+print(lista[2:0])
+lista.append('@')
+print(lista+lista)
+lista.extend(lista2)
+print(lista)
+print(lista.index('goku'))
+lista.remove('w')
+lista.pop()
+print(lista*4)
+print('goku'in lista)
